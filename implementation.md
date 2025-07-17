@@ -48,7 +48,7 @@ This guide walks you through the full setup of a serverless receipt processing p
 
 ![image alt](https://github.com/udaysaithota/food-Waste-Reduction-Solution/blob/c761d7007c7338f48bb9f79fcd36c667e44568c1/Screenshot%202025-07-17%20112022.png)
 
-1[image alt](https://github.com/udaysaithota/food-Waste-Reduction-Solution/blob/c761d7007c7338f48bb9f79fcd36c667e44568c1/Screenshot%202025-07-17%20112057.png)
+![image alt](https://github.com/udaysaithota/food-Waste-Reduction-Solution/blob/c761d7007c7338f48bb9f79fcd36c667e44568c1/Screenshot%202025-07-17%20112057.png)
 
 
 ---
@@ -87,3 +87,15 @@ This guide walks you through the full setup of a serverless receipt processing p
 6. Go to the **Code** tab and add the pyhton code that I provide in **python.py** file and click **Deploy**.
 7. Go to configuration tab > General configuration  > edit
 8. Increase the timeout from 0.3 sec to 2 min for complex file
+
+
+![image alt](https://github.com/udaysaithota/food-Waste-Reduction-Solution/blob/23f7f24381cb685ecb60650ae9f2f4a8c3e980ea/Screenshot%202025-07-17%20115823.png)
+
+![image alt](https://github.com/udaysaithota/food-Waste-Reduction-Solution/blob/23f7f24381cb685ecb60650ae9f2f4a8c3e980ea/Screenshot%202025-07-17%20121434.png)
+
+![image alt](https://github.com/udaysaithota/food-Waste-Reduction-Solution/blob/23f7f24381cb685ecb60650ae9f2f4a8c3e980ea/Screenshot%202025-07-17%20121236.png)
+
+![image alt](https://github.com/udaysaithota/food-Waste-Reduction-Solution/blob/23f7f24381cb685ecb60650ae9f2f4a8c3e980ea/Screenshot%202025-07-17%20122117.png)
+
+---
+
