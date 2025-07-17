@@ -1,3 +1,6 @@
+![image alt](https://github.com/udaysaithota/food-Waste-Reduction-Solution/blob/7a8a701496a4ab1af076404a7006444443fed686/Scanvault.png)
+
+
 ## 📄 Automating Receipt Processing using AWS Services
 
 Managing receipts manually is often time-consuming, error-prone, and difficult to scale. This project focuses on automating receipt processing using **AWS cloud-native services** to extract, store, and notify users with minimal manual intervention.
