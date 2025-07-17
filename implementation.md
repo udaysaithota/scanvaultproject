@@ -38,3 +38,40 @@ This guide walks you through the full setup of a serverless receipt processing p
 
 ---
 
+## 3️⃣ Set Up Amazon SES (to send emails)
+
+### ✅ Steps:
+1. Go to **Amazon SES Console**
+2. Verify your sender email under **Verified Identities**
+3. (Optional) Verify recipient email if your account is in sandbox mode
+4. Note the region (e.g., `ap-south-1`) – you’ll need it in your Lambda
+
+![image alt](https://github.com/udaysaithota/food-Waste-Reduction-Solution/blob/c761d7007c7338f48bb9f79fcd36c667e44568c1/Screenshot%202025-07-17%20112022.png)
+
+1[image alt](https://github.com/udaysaithota/food-Waste-Reduction-Solution/blob/c761d7007c7338f48bb9f79fcd36c667e44568c1/Screenshot%202025-07-17%20112057.png)
+
+
+---
+
+
+## 4️⃣ Create IAM Role for Lambda Execution
+
+### ✅ Steps:
+1. Go to the **IAM Console** → Roles → Create Role
+2. Choose **Lambda** as the use case
+3. Attach the following policies:
+  
+```
+   - `AmazonS3ReadOnlyAccess`
+   - `AmazonTextractFullAccess`
+   - `AmazonDynamoDBFullAccess`
+   - `AmazonSESFullAccess`
+   - `AWSLambdaBasicExecutionRole`
+```
+4. Name the role: `LambdaReceiptProcessingRole`
+
+![image alt](https://github.com/udaysaithota/food-Waste-Reduction-Solution/blob/c761d7007c7338f48bb9f79fcd36c667e44568c1/Screenshot%202025-07-17%20113125.png)
+
+![image alt](https://github.com/udaysaithota/food-Waste-Reduction-Solution/blob/c761d7007c7338f48bb9f79fcd36c667e44568c1/Screenshot%202025-07-17%20113506.png)
+
+---
