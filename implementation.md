@@ -99,9 +99,17 @@ This guide walks you through the full setup of a serverless receipt processing p
 
 ---
 
+
 ## 6️⃣ Again go to S3 Bucket.
 ✅ Steps:
 1. In the `Properties` Tab
 2. Add the Event Notification 
 3. Prefix : incoming/
 4. Object creation : Select All object create events
+
+ ![image alt](https://github.com/udaysaithota/food-Waste-Reduction-Solution/blob/45cfaeb9957e84229b6df7dbee4e814a988740b7/Screenshot%202025-07-17%20123928.png)
+ ![image alt](https://github.com/udaysaithota/food-Waste-Reduction-Solution/blob/2bceed28427ea499f2b7c084bb35bd39b82a2a08/Screenshot%202025-07-17%20123820.png)
+
+ ---
+
+**Author**: *Uday Sai*  
