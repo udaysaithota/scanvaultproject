@@ -99,3 +99,9 @@ This guide walks you through the full setup of a serverless receipt processing p
 
 ---
 
+## 6️⃣ Again go to S3 Bucket.
+✅ Steps:
+1. In the `Properties` Tab
+2. Add the Event Notification 
+3. Prefix : incoming/
+4. Object creation : Select All object create events
