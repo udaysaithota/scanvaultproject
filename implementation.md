@@ -3,7 +3,8 @@
 This guide walks you through the full setup of a serverless receipt processing pipeline using AWS services.
 
 ---
-## 1️⃣ Create the S3 Bucket (for uploading receipts)
+## 1️⃣ Create the S3 Bucket (for uploading receipts) 
+
 ### ✅ Steps:
 1. Go to the **S3 Console** → Click **Create Bucket**
 2. Name your bucket (e.g., `storage-receipt-udaysai`)
@@ -15,6 +16,9 @@ This guide walks you through the full setup of a serverless receipt processing p
 
 
 ![image alt](https://github.com/udaysaithota/scanvaultproject/blob/beac5f3f30eac657a53265f8393ba64d690db170/Screenshot%202025-07-17%20110514.png)
+
+
+---
 
 ## 2️⃣ Create a DynamoDB Table (to store extracted data)
 
