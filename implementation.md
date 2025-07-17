@@ -75,3 +75,15 @@ This guide walks you through the full setup of a serverless receipt processing p
 ![image alt](https://github.com/udaysaithota/food-Waste-Reduction-Solution/blob/c761d7007c7338f48bb9f79fcd36c667e44568c1/Screenshot%202025-07-17%20113506.png)
 
 ---
+
+## 5️⃣ Create Lambda Function (processing engine)
+
+### ✅ Steps:
+1. Go to **AWS Lambda Console** → Click **Create Function**
+2. Name: `ProcessReceiptFunction`
+3. Runtime: **Python 3.9** or **Node.js**
+4. Choose existing role → Select `LambdaReceiptProcessingRole`
+5. Go to **configuration** tab inside **environment** varibales add this.
+6. Go to the **Code** tab and add the pyhton code that I provide in **python.py** file and click **Deploy**.
+7. Go to configuration tab > General configuration  > edit
+8. Increase the timeout from 0.3 sec to 2 min for complex file
