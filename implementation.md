@@ -33,4 +33,8 @@ This guide walks you through the full setup of a serverless receipt processing p
 ![image alt](https://github.com/udaysaithota/food-Waste-Reduction-Solution/blob/626257ca1c622ee0fa13fb60b9b905c910367a6d/Screenshot%202025-07-17%20111106.png)
 
 
-![image alt](
+![image alt](https://github.com/udaysaithota/food-Waste-Reduction-Solution/blob/626257ca1c622ee0fa13fb60b9b905c910367a6d/Screenshot%202025-07-17%20111143.png)
+
+
+---
+
